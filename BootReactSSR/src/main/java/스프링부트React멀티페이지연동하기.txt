@@ -1,0 +1,20 @@
+https://gyoogle.dev/blog/web-knowledge/react-knowledge/React%20&%20Spring%20Boot%20%EC%97%B0%EB%8F%99%ED%95%98%EC%97%AC%20%ED%99%98%EA%B2%BD%20%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0.html
+
+
+
+
+# 웹팩 빌드 명령
+# 프로젝트 루트경로에서
+> node_modules\.bin\webpack --watch --devtool inline-source-map
+
+# VS코드 권한오류
+# 파워쉘 관리자 권한으로 실행
+> Set-ExecutionPolicy RemoteSigned
+> yes
+
+# 번들이 생성되는지 확인한다 (스프링부트에서는 refresh를 해서 확인)
+
+# 매번 명령을 치기가 힘들다면 package.json에 스크립트 실행 명령문을 작성한다.
+# 프로젝트 루트에서 npm run watch를 켜주면 js코드를 수정할 때마다 자동으로 번들을 생성해 주며.
+# 스프링 부트 프로젝트에서는 새로고침으로 반영해야 합니다.
+
